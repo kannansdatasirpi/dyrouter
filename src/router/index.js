@@ -1,3 +1,7 @@
+//The Vue router is used to navigate between views or component templates in the DOM. 
+//To use the Vue router, define routes in a routes component and indicate to Vue that the new component should be mounted on an event, such as click.
+
+
 import { createRouter, createWebHistory } from 'vue-router'
 import AboutUs from '../components/AboutUs.vue'
 import HomePage from '../components/HomePage.vue'
@@ -8,6 +12,7 @@ const routes = [
     name: 'home',
     component: HomePage
   },
+  
   {
     path: '/about',
     name: 'about',
